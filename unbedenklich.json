@@ -1,0 +1,12 @@
+{
+  "$schema": "./schema/questions.schema.json",
+  "title": "Standard",
+  "description": "Unbedenkliche Fragen, das kann man sogar mit Mama spielen",
+  "questions": [
+    {
+      "type": "number",
+      "question": "In welchem Jahr begann die Französische Revolution?",
+      "solution": 1789
+    }
+  ]
+}
