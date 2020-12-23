@@ -1,7 +1,9 @@
 module.exports = [{
     entry: './index.js',
     output: {
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        library: "Questions",
+        libraryTarget: "umd"
     },
     module: {
         rules: [
