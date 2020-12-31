@@ -28,6 +28,136 @@
         "question",
         "solution"
       ]
+    },
+    "votingQuestion": {
+      "type": "object",
+      "title": "Voting Question",
+      "description": "A question where one of the members is voted",
+      "properties": {
+        "type": {
+          "description": "The questions type",
+          "type": "string",
+          "enum": [
+            "voting"
+          ]
+        },
+        "question": {
+          "description": "The questions question",
+          "type": "string"
+        },
+        "sips": {
+          "description": "how many sips the elected game member has to drink",
+          "type": "number",
+          "default": 3
+        }
+      },
+      "required": [
+        "type",
+        "question"
+      ]
+    },
+    "multipleChoiceQuestion": {
+      "type": "object",
+      "title": "Multible Choice question",
+      "properties": {
+        "type": {
+          "description": "The questions type",
+          "type": "string",
+          "enum": [
+            "multibleChoice"
+          ]
+        },
+        "question": {
+          "description": "The questions question",
+          "type": "string"
+        },
+        "solutions": {
+          "description": "An array containing the possible Solutions",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 10,
+          "items": {
+            "type": "string"
+          }
+        },
+        "correctSolution": {
+          "description": "The index of the correct solution. (Indexing starts with 0",
+          "type": "number",
+          "minimum": 0,
+          "multipleOf": 1
+        },
+        "sips": {
+          "description": "how many sips the people, who picked to wrong answer have to drink",
+          "type": "number",
+          "default": 3
+        }
+      },
+      "required": [
+        "type",
+        "question",
+        "correctSolution",
+        "solutions"
+      ]
+    },
+    "majorityQuestion":{
+      "description": "Let them vote on a topic. The people in the minority will be wrong",
+      "type": "object",
+      "title": "Multible Choice question",
+      "properties": {
+        "type": {
+          "description": "The questions type",
+          "type": "string",
+          "enum": [
+            "majority"
+          ]
+        },
+        "question": {
+          "description": "The questions question",
+          "type": "string"
+        },
+        "solutions": {
+          "description": "An array containing the possible Solutions",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 10,
+          "items": {
+            "type": "string"
+          }
+        },
+        "sips": {
+          "description": "how many sips the minority's members have to drink",
+          "type": "number",
+          "default": 3
+        }
+      },
+      "required": [
+        "type",
+        "question",
+        "solutions"
+      ]
+    },
+    "neverHaveIever": {
+      "description": "Never Have I Ever Question",
+      "type": "object",
+      "properties": {
+        "type": {
+          "description": "The questions type",
+          "type": "string",
+          "enum": [
+            "neverHaveIever"
+          ]
+        },
+        "question": {
+          "description": "The questions question",
+          "type": "string"
+        },
+        "sips": {
+          "description": "how many sips the people, who picked to wrong answer have to drink",
+          "type": "number",
+          "default": 3
+        }
+      },
+      "required": ["type", "question"]
     }
   },
   "properties": {
@@ -46,6 +176,18 @@
         "oneOf": [
           {
             "$ref": "#/definitions/numberQuestion"
+          },
+          {
+            "$ref": "#/definitions/votingQuestion"
+          },
+          {
+            "$ref": "#/definitions/multipleChoiceQuestion"
+          },
+          {
+            "$ref": "#/definitions/majorityQuestion"
+          },
+          {
+            "$ref": "#/definitions/neverHaveIever"
           }
         ]
       }

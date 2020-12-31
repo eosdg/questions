@@ -7,6 +7,23 @@
       "type": "number",
       "question": "In welchem Jahr begann die Französische Revolution?",
       "solution": 1789
+    },
+    {
+      "type": "voting",
+      "question": "Wer ist der Clown der Gruppe?"
+    },
+    {
+      "type": "voting",
+      "question": "Wer ist am trinkfestesten?",
+      "sips": 6
+    },
+    {
+      "type": "multibleChoice",
+      "question": "Welcher Film gewann 2020 den Oscar als bester Film",
+      "correctSolution": 1,
+      "solutions": [
+        "Joker", "Parasite", "Once upon a time in Hollywood", "1917"
+      ]
     }
   ]
 }

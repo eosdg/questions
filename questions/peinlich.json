@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/questions.schema.json",
+  "title": "Peinlich",
+  "description": "Diese Fragen führen zu peinlichen Erkenntnissen über die Mitspieler",
+  "questions": [
+    {
+      "type": "neverHaveIever",
+      "question": "Ich habe noch nie in der Öffentlichkeit in die Hose gemacht (abgesehen von den ersten paar Lebensjahren)"
+    }
+  ]
+}

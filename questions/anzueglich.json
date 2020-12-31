@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/questions.schema.json",
+  "title": "Anzüglich",
+  "description": "Diese Fragen sind durchaus anzüglich",
+  "questions": [
+    {
+      "type": "majority",
+      "question": "Was ist wichtiger?",
+      "solutions": ["Körper", "Verstand"]
+    }
+  ]
+}
