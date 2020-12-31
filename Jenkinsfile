@@ -29,14 +29,11 @@ pipeline {
             sh 'npm run test'
         }
     }
-
-     post {
-            always {
-                junit 'junit.xml'
-            }
-        }
-
-
+ }
+ post {
+    always {
+        junit 'junit.xml'
+    }
  }
   environment {
     HOME = '.'
