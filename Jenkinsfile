@@ -25,14 +25,13 @@ pipeline {
     }
 
     stage('Test') {
-        stage('Test') {
-          steps {
+        steps {
             sh 'npm run test'
-          }
         }
     }
 
-  }
+
+ }
   environment {
     HOME = '.'
   }
