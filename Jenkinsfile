@@ -30,6 +30,12 @@ pipeline {
         }
     }
 
+     post {
+            always {
+                junit 'junit.xml'
+            }
+        }
+
 
  }
   environment {

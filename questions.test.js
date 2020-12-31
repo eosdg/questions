@@ -6,8 +6,11 @@ import schema from "./schema/questions.schema.json"
 expect.extend(matchers);
 
 const questionSets = Object.keys(questions);
-for (const questionSet of questionSets) {
-    it("Testing \"" + questionSet+"\"", () => {
-        expect(questions[questionSet]).toMatchSchema(schema);
-    });
-}
+describe("Passen die Fragen zum Schema", () => {
+    for (const questionSet of questionSets) {
+        it("Testing \"" + questionSet+"\"", () => {
+            expect(questions[questionSet]).toMatchSchema(schema);
+        });
+    }
+});
+
