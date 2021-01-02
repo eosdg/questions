@@ -4,11 +4,6 @@
   "description": "Unbedenkliche Fragen, das kann man sogar mit Mama spielen",
   "questions": [
     {
-      "type": "number",
-      "question": "In welchem Jahr begann die Französische Revolution?",
-      "solution": 1789
-    },
-    {
       "type": "voting",
       "question": "Wer ist der Clown der Gruppe?"
     },
@@ -18,12 +13,13 @@
       "sips": 6
     },
     {
-      "type": "multibleChoice",
-      "question": "Welcher Film gewann 2020 den Oscar als bester Film",
-      "correctSolution": 1,
-      "solutions": [
-        "Joker", "Parasite", "Once upon a time in Hollywood", "1917"
-      ]
+      "type": "majority",
+      "question": "Rotwein oder Weißwein?",
+      "solutions": ["Rot", "Weiß"]
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Im Zug die Station verpasst oder eingeschlafen"
     }
   ]
 }

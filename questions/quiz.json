@@ -1,0 +1,20 @@
+{
+  "$schema": "../schema/questions.schema.json",
+  "title": "Quiz",
+  "description": "Quizfragen, die auch für ein normales Quiz verwendet werden können",
+  "questions": [
+    {
+      "type": "number",
+      "question": "In welchem Jahr begann die Französische Revolution?",
+      "solution": 1789
+    },
+    {
+      "type": "multibleChoice",
+      "question": "Welcher Film gewann 2020 den Oscar als bester Film",
+      "correctSolution": 1,
+      "solutions": [
+        "Joker", "Parasite", "Once upon a time in Hollywood", "1917"
+      ]
+    }
+  ]
+}
