@@ -4,8 +4,9 @@ import {terser} from "rollup-plugin-terser";
 export default {
     input: "index.js",
     output: {
-        file: 'dist/bundle.js',
-        format: 'es'
+        file: 'testDist/bundle.js',
+        format: 'commonjs',
+        exports: 'default'
     },
     plugins: [
         pluginJson(),

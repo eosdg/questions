@@ -9,10 +9,15 @@
   ],
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --colors",
+    "test": "jest",
+    "test:old": "node --experimental-vm-modules node_modules/jest/bin/jest.js --colors",
     "build": "rollup -c rollup.config.js",
+    "build:test": "rollup -c rollup.test.config.js",
     "zip": "zip-folder dist",
-    "release": "dotenv release-it"
+    "release": "dotenv release-it",
+    "clean": "npm run clean:build && npm run clean:testDist",
+    "clean:build": "del-cli dist",
+    "clean:testDist": "del-cli testDist"
   },
   "repository": {
     "type": "git",
@@ -25,11 +30,9 @@
   },
   "homepage": "https://github.com/eosdg/questions#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
     "@neferin/zip-folder": "^1.0.4",
     "@rollup/plugin-json": "^4.1.0",
+    "del-cli": "^3.0.1",
     "dotenv-cli": "^4.0.0",
     "jest": "^26.6.3",
     "jest-json-schema": "^2.1.0",

@@ -4,3 +4,5 @@ dist
 /dist.zip
 node_modules
 /junit.xml
+/testdist/
+/lib/
