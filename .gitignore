@@ -6,3 +6,4 @@ node_modules
 /junit.xml
 /testdist/
 /lib/
+/testDist/
