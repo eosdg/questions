@@ -6,17 +6,16 @@
     {
       "type": "majority",
       "question": "Was ist wichtiger?",
-      "solutions": ["Körper", "Verstand"]
-    },
-    {
-      "type": "majority",
-      "question": "Was ist wichtiger?",
       "solutions": ["Körper", "Gesicht"]
     },
     {
       "type": "voting",
       "question": "Wer würde am ehesten einen Dreier aus Versehen haben?",
       "sips": 2
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "69"
     }
   ]
 }

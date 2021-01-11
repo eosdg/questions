@@ -4,6 +4,11 @@
   "description": "Unbedenkliche Fragen, das kann man sogar mit Mama spielen",
   "questions": [
     {
+      "type": "majority",
+      "question": "Was ist wichtiger?",
+      "solutions": ["Körper", "Verstand"]
+    },
+    {
       "type": "voting",
       "question": "Wer ist der Clown der Gruppe?"
     },
