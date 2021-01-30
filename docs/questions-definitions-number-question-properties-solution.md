@@ -1,27 +1,15 @@
-# Untitled undefined type in Schema for Questions Schema
+# Untitled number in Schema for Questions Schema
 
 ```txt
-questions#/properties/questions/items
+questions#/definitions/numberQuestion/properties/solution
 ```
 
-
+The questions right solution
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [questions.schema.json*](../out/questions.schema.json "open original schema") |
 
-## items Type
+## solution Type
 
-merged type ([Details](questions-properties-questions-items.md))
-
-one (and only one) of
-
-*   [Number Question](questions-definitions-number-question.md "check type definition")
-
-*   [Voting](questions-definitions-voting.md "check type definition")
-
-*   [Multible Choice](questions-definitions-multible-choice.md "check type definition")
-
-*   [Majority vote](questions-definitions-majority-vote.md "check type definition")
-
-*   [Never Have I Ever](questions-definitions-never-have-i-ever.md "check type definition")
+`number`

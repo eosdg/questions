@@ -1,4 +1,4 @@
-# Untitled schema Schema
+# Untitled undefined type in Schema for Questions Schema
 
 ```txt
 questions#/definitions

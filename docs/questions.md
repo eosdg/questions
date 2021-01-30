@@ -1,4 +1,4 @@
-# Untitled object in undefined Schema
+# Schema for Questions Schema
 
 ```txt
 questions
@@ -10,17 +10,17 @@ questions
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------- |
 | Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [questions.schema.json](../out/questions.schema.json "open original schema") |
 
-## Untitled object in undefined Type
+## Schema for Questions Type
 
-`object` ([Details](questions.md))
+`object` ([Schema for Questions](questions.md))
 
-# Untitled object in undefined Properties
+# Schema for Questions Properties
 
-| Property                    | Type     | Required | Nullable       | Defined by                                                                                   |
-| :-------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------- |
-| [title](#title)             | `string` | Required | cannot be null | [\[object Object\]](questions-properties-title.md "questions#/properties/title")             |
-| [description](#description) | `string` | Required | cannot be null | [\[object Object\]](questions-properties-description.md "questions#/properties/description") |
-| [questions](#questions)     | `array`  | Required | cannot be null | [\[object Object\]](questions-properties-questions.md "questions#/properties/questions")     |
+| Property                    | Type     | Required | Nullable       | Defined by                                                                                      |
+| :-------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------- |
+| [title](#title)             | `string` | Required | cannot be null | [Schema for Questions](questions-properties-title.md "questions#/properties/title")             |
+| [description](#description) | `string` | Required | cannot be null | [Schema for Questions](questions-properties-description.md "questions#/properties/description") |
+| [questions](#questions)     | `array`  | Required | cannot be null | [Schema for Questions](questions-properties-questions.md "questions#/properties/questions")     |
 
 ## title
 
@@ -34,7 +34,7 @@ Title of the questionset
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](questions-properties-title.md "questions#/properties/title")
+*   defined in: [Schema for Questions](questions-properties-title.md "questions#/properties/title")
 
 ### title Type
 
@@ -52,7 +52,7 @@ A description for the questionset
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](questions-properties-description.md "questions#/properties/description")
+*   defined in: [Schema for Questions](questions-properties-description.md "questions#/properties/description")
 
 ### description Type
 
@@ -70,13 +70,13 @@ The questionset's questions
 
 *   cannot be null
 
-*   defined in: [\[object Object\]](questions-properties-questions.md "questions#/properties/questions")
+*   defined in: [Schema for Questions](questions-properties-questions.md "questions#/properties/questions")
 
 ### questions Type
 
 an array of merged types ([Details](questions-properties-questions-items.md))
 
-# Untitled object in undefined Definitions
+# Schema for Questions Definitions
 
 ## Definitions group numberQuestion
 
@@ -86,11 +86,11 @@ Reference this group by using
 {"$ref":"questions#/definitions/numberQuestion"}
 ```
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                 |
-| :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)         | `string` | Required | cannot be null | [Untitled schema](questions-definitions-numberquestion-properties-type.md "questions#/definitions/numberQuestion/properties/type")         |
-| [question](#question) | `string` | Required | cannot be null | [Untitled schema](questions-definitions-numberquestion-properties-question.md "questions#/definitions/numberQuestion/properties/question") |
-| [solution](#solution) | `number` | Required | cannot be null | [Untitled schema](questions-definitions-numberquestion-properties-solution.md "questions#/definitions/numberQuestion/properties/solution") |
+| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                       |
+| :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type)         | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-number-question-properties-type.md "questions#/definitions/numberQuestion/properties/type")         |
+| [question](#question) | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-number-question-properties-question.md "questions#/definitions/numberQuestion/properties/question") |
+| [solution](#solution) | `number` | Required | cannot be null | [Schema for Questions](questions-definitions-number-question-properties-solution.md "questions#/definitions/numberQuestion/properties/solution") |
 
 ### type
 
@@ -104,7 +104,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-numberquestion-properties-type.md "questions#/definitions/numberQuestion/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-number-question-properties-type.md "questions#/definitions/numberQuestion/properties/type")
 
 #### type Type
 
@@ -130,7 +130,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-numberquestion-properties-question.md "questions#/definitions/numberQuestion/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-number-question-properties-question.md "questions#/definitions/numberQuestion/properties/question")
 
 #### question Type
 
@@ -148,7 +148,7 @@ The questions right solution
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-numberquestion-properties-solution.md "questions#/definitions/numberQuestion/properties/solution")
+*   defined in: [Schema for Questions](questions-definitions-number-question-properties-solution.md "questions#/definitions/numberQuestion/properties/solution")
 
 #### solution Type
 
@@ -162,11 +162,11 @@ Reference this group by using
 {"$ref":"questions#/definitions/votingQuestion"}
 ```
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                  |
-| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type-1)         | `string` | Required | cannot be null | [Untitled schema](questions-definitions-voting-question-properties-type.md "questions#/definitions/votingQuestion/properties/type")         |
-| [question](#question-1) | `string` | Required | cannot be null | [Untitled schema](questions-definitions-voting-question-properties-question.md "questions#/definitions/votingQuestion/properties/question") |
-| [sips](#sips)           | `number` | Optional | cannot be null | [Untitled schema](questions-definitions-voting-question-properties-sips.md "questions#/definitions/votingQuestion/properties/sips")         |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                              |
+| :---------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type-1)         | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-voting-properties-type.md "questions#/definitions/votingQuestion/properties/type")         |
+| [question](#question-1) | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-voting-properties-question.md "questions#/definitions/votingQuestion/properties/question") |
+| [sips](#sips)           | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-voting-properties-sips.md "questions#/definitions/votingQuestion/properties/sips")         |
 
 ### type
 
@@ -180,7 +180,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-voting-question-properties-type.md "questions#/definitions/votingQuestion/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-voting-properties-type.md "questions#/definitions/votingQuestion/properties/type")
 
 #### type Type
 
@@ -206,7 +206,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-voting-question-properties-question.md "questions#/definitions/votingQuestion/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-voting-properties-question.md "questions#/definitions/votingQuestion/properties/question")
 
 #### question Type
 
@@ -224,7 +224,7 @@ how many sips the elected game member has to drink
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-voting-question-properties-sips.md "questions#/definitions/votingQuestion/properties/sips")
+*   defined in: [Schema for Questions](questions-definitions-voting-properties-sips.md "questions#/definitions/votingQuestion/properties/sips")
 
 #### sips Type
 
@@ -246,13 +246,13 @@ Reference this group by using
 {"$ref":"questions#/definitions/multipleChoiceQuestion"}
 ```
 
-| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                 |
-| :---------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type-2)                     | `string` | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")                       |
-| [question](#question-2)             | `string` | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")               |
-| [solutions](#solutions)             | `array`  | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")             |
-| [correctSolution](#correctsolution) | `number` | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution") |
-| [sips](#sips-1)                     | `number` | Optional | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")                       |
+| Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                             |
+| :---------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type-2)                     | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")                       |
+| [question](#question-2)             | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")               |
+| [solutions](#solutions)             | `array`  | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")             |
+| [correctSolution](#correctsolution) | `number` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution") |
+| [sips](#sips-1)                     | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")                       |
 
 ### type
 
@@ -266,7 +266,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")
 
 #### type Type
 
@@ -292,7 +292,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")
 
 #### question Type
 
@@ -310,7 +310,7 @@ An array containing the possible Solutions
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")
+*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")
 
 #### solutions Type
 
@@ -334,7 +334,7 @@ The index of the correct solution. (Indexing starts with 0
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution")
+*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution")
 
 #### correctSolution Type
 
@@ -358,7 +358,7 @@ how many sips the people, who picked to wrong answer have to drink
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")
+*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")
 
 #### sips Type
 
@@ -380,12 +380,12 @@ Reference this group by using
 {"$ref":"questions#/definitions/majorityQuestion"}
 ```
 
-| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                 |
-| :------------------------ | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type-3)           | `string` | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-1-properties-type.md "questions#/definitions/majorityQuestion/properties/type")           |
-| [question](#question-3)   | `string` | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-1-properties-question.md "questions#/definitions/majorityQuestion/properties/question")   |
-| [solutions](#solutions-1) | `array`  | Required | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-1-properties-solutions.md "questions#/definitions/majorityQuestion/properties/solutions") |
-| [sips](#sips-2)           | `number` | Optional | cannot be null | [Untitled schema](questions-definitions-multible-choice-question-1-properties-sips.md "questions#/definitions/majorityQuestion/properties/sips")           |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                         |
+| :------------------------ | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type-3)           | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-majority-vote-properties-type.md "questions#/definitions/majorityQuestion/properties/type")           |
+| [question](#question-3)   | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-majority-vote-properties-question.md "questions#/definitions/majorityQuestion/properties/question")   |
+| [solutions](#solutions-1) | `array`  | Required | cannot be null | [Schema for Questions](questions-definitions-majority-vote-properties-solutions.md "questions#/definitions/majorityQuestion/properties/solutions") |
+| [sips](#sips-2)           | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-majority-vote-properties-sips.md "questions#/definitions/majorityQuestion/properties/sips")           |
 
 ### type
 
@@ -399,7 +399,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-1-properties-type.md "questions#/definitions/majorityQuestion/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-majority-vote-properties-type.md "questions#/definitions/majorityQuestion/properties/type")
 
 #### type Type
 
@@ -425,7 +425,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-1-properties-question.md "questions#/definitions/majorityQuestion/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-majority-vote-properties-question.md "questions#/definitions/majorityQuestion/properties/question")
 
 #### question Type
 
@@ -443,7 +443,7 @@ An array containing the possible Solutions
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-1-properties-solutions.md "questions#/definitions/majorityQuestion/properties/solutions")
+*   defined in: [Schema for Questions](questions-definitions-majority-vote-properties-solutions.md "questions#/definitions/majorityQuestion/properties/solutions")
 
 #### solutions Type
 
@@ -467,7 +467,7 @@ how many sips the minority's members have to drink
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-multible-choice-question-1-properties-sips.md "questions#/definitions/majorityQuestion/properties/sips")
+*   defined in: [Schema for Questions](questions-definitions-majority-vote-properties-sips.md "questions#/definitions/majorityQuestion/properties/sips")
 
 #### sips Type
 
@@ -489,11 +489,11 @@ Reference this group by using
 {"$ref":"questions#/definitions/neverHaveIever"}
 ```
 
-| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                 |
-| :---------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type-4)         | `string` | Required | cannot be null | [Untitled schema](questions-definitions-neverhaveiever-properties-type.md "questions#/definitions/neverHaveIever/properties/type")         |
-| [question](#question-4) | `string` | Required | cannot be null | [Untitled schema](questions-definitions-neverhaveiever-properties-question.md "questions#/definitions/neverHaveIever/properties/question") |
-| [sips](#sips-3)         | `number` | Optional | cannot be null | [Untitled schema](questions-definitions-neverhaveiever-properties-sips.md "questions#/definitions/neverHaveIever/properties/sips")         |
+| Property                | Type     | Required | Nullable       | Defined by                                                                                                                                         |
+| :---------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type-4)         | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-never-have-i-ever-properties-type.md "questions#/definitions/neverHaveIever/properties/type")         |
+| [question](#question-4) | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-never-have-i-ever-properties-question.md "questions#/definitions/neverHaveIever/properties/question") |
+| [sips](#sips-3)         | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-never-have-i-ever-properties-sips.md "questions#/definitions/neverHaveIever/properties/sips")         |
 
 ### type
 
@@ -507,7 +507,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-neverhaveiever-properties-type.md "questions#/definitions/neverHaveIever/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-never-have-i-ever-properties-type.md "questions#/definitions/neverHaveIever/properties/type")
 
 #### type Type
 
@@ -533,7 +533,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-neverhaveiever-properties-question.md "questions#/definitions/neverHaveIever/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-never-have-i-ever-properties-question.md "questions#/definitions/neverHaveIever/properties/question")
 
 #### question Type
 
@@ -551,7 +551,7 @@ how many sips the people, who picked to wrong answer have to drink
 
 *   cannot be null
 
-*   defined in: [Untitled schema](questions-definitions-neverhaveiever-properties-sips.md "questions#/definitions/neverHaveIever/properties/sips")
+*   defined in: [Schema for Questions](questions-definitions-never-have-i-ever-properties-sips.md "questions#/definitions/neverHaveIever/properties/sips")
 
 #### sips Type
 

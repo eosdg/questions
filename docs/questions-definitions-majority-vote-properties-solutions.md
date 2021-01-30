@@ -1,27 +1,21 @@
-# Untitled undefined type in Schema for Questions Schema
+# Untitled array in Schema for Questions Schema
 
 ```txt
-questions#/properties/questions/items
+questions#/definitions/majorityQuestion/properties/solutions
 ```
 
-
+An array containing the possible Solutions
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [questions.schema.json*](../out/questions.schema.json "open original schema") |
 
-## items Type
+## solutions Type
 
-merged type ([Details](questions-properties-questions-items.md))
+`string[]`
 
-one (and only one) of
+## solutions Constraints
 
-*   [Number Question](questions-definitions-number-question.md "check type definition")
+**maximum number of items**: the maximum number of items for this array is: `10`
 
-*   [Voting](questions-definitions-voting.md "check type definition")
-
-*   [Multible Choice](questions-definitions-multible-choice.md "check type definition")
-
-*   [Majority vote](questions-definitions-majority-vote.md "check type definition")
-
-*   [Never Have I Ever](questions-definitions-never-have-i-ever.md "check type definition")
+**minimum number of items**: the minimum number of items for this array is: `2`

@@ -1,7 +1,7 @@
-# Untitled undefined type in Schema for Questions Schema
+# Untitled string in Schema for Questions Schema
 
 ```txt
-questions#/properties/questions/items
+questions#/definitions/majorityQuestion/properties/solutions/items
 ```
 
 
@@ -12,16 +12,4 @@ questions#/properties/questions/items
 
 ## items Type
 
-merged type ([Details](questions-properties-questions-items.md))
-
-one (and only one) of
-
-*   [Number Question](questions-definitions-number-question.md "check type definition")
-
-*   [Voting](questions-definitions-voting.md "check type definition")
-
-*   [Multible Choice](questions-definitions-multible-choice.md "check type definition")
-
-*   [Majority vote](questions-definitions-majority-vote.md "check type definition")
-
-*   [Never Have I Ever](questions-definitions-never-have-i-ever.md "check type definition")
+`string`

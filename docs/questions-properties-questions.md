@@ -1,4 +1,4 @@
-# Untitled array in \[object Object] Schema
+# Untitled array in Schema for Questions Schema
 
 ```txt
 questions#/properties/questions

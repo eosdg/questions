@@ -2,9 +2,11 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "questions",
   "type": "object",
+  "title": "Schema for Questions",
   "definitions": {
     "numberQuestion": {
       "type": "object",
+      "title": "Number Question",
       "description": "A question where you hav to guess a number (could be a year or e.G. number of polar bears alive)",
       "properties": {
         "type": {
@@ -31,7 +33,7 @@
     },
     "votingQuestion": {
       "type": "object",
-      "title": "Voting Question",
+      "title": "Voting",
       "description": "A question where one of the members is voted",
       "properties": {
         "type": {
@@ -58,7 +60,7 @@
     },
     "multipleChoiceQuestion": {
       "type": "object",
-      "title": "Multible Choice question",
+      "title": "Multible Choice",
       "properties": {
         "type": {
           "description": "The questions type",
@@ -102,7 +104,7 @@
     "majorityQuestion":{
       "description": "Let them vote on a topic. The people in the minority will be wrong",
       "type": "object",
-      "title": "Multible Choice question",
+      "title": "Majority vote",
       "properties": {
         "type": {
           "description": "The questions type",
@@ -138,6 +140,7 @@
     },
     "neverHaveIever": {
       "description": "Never Have I Ever Question",
+      "title": "Never Have I Ever",
       "type": "object",
       "properties": {
         "type": {

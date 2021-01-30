@@ -1,4 +1,4 @@
-# Untitled string in \[object Object] Schema
+# Untitled string in Schema for Questions Schema
 
 ```txt
 questions#/properties/title

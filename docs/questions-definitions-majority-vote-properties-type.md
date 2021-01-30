@@ -1,27 +1,23 @@
-# Untitled undefined type in Schema for Questions Schema
+# Untitled string in Schema for Questions Schema
 
 ```txt
-questions#/properties/questions/items
+questions#/definitions/majorityQuestion/properties/type
 ```
 
-
+The questions type
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [questions.schema.json*](../out/questions.schema.json "open original schema") |
 
-## items Type
+## type Type
 
-merged type ([Details](questions-properties-questions-items.md))
+`string`
 
-one (and only one) of
+## type Constraints
 
-*   [Number Question](questions-definitions-number-question.md "check type definition")
+**enum**: the value of this property must be equal to one of the following values:
 
-*   [Voting](questions-definitions-voting.md "check type definition")
-
-*   [Multible Choice](questions-definitions-multible-choice.md "check type definition")
-
-*   [Majority vote](questions-definitions-majority-vote.md "check type definition")
-
-*   [Never Have I Ever](questions-definitions-never-have-i-ever.md "check type definition")
+| Value        | Explanation |
+| :----------- | :---------- |
+| `"majority"` |             |
