@@ -4,7 +4,7 @@
 questions#/properties/questions/items/oneOf/3
 ```
 
-Let them vote on a topic. The people in the minority will be wrong
+Let them vote on a topic. The people in the minority will be wrong and have to drink.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------- |
@@ -13,6 +13,19 @@ Let them vote on a topic. The people in the minority will be wrong
 ## 3 Type
 
 `object` ([Majority vote](questions-definitions-majority-vote.md))
+
+## 3 Examples
+
+```json
+{
+  "type": "majority",
+  "question": "Whats more important?",
+  "solutions": [
+    "Body",
+    "Character"
+  ]
+}
+```
 
 # 3 Properties
 

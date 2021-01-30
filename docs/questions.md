@@ -66,7 +66,7 @@ The questionset's questions
 
 *   is required
 
-*   Type: an array of merged types ([Details](questions-properties-questions-items.md))
+*   Type: an array of merged types ([Questiontypes](questions-properties-questions-questiontypes.md))
 
 *   cannot be null
 
@@ -74,7 +74,7 @@ The questionset's questions
 
 ### questions Type
 
-an array of merged types ([Details](questions-properties-questions-items.md))
+an array of merged types ([Questiontypes](questions-properties-questions-questiontypes.md))
 
 # Schema for Questions Definitions
 

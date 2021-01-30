@@ -15,6 +15,7 @@
     "build:test": "rollup -c rollup.test.config.js",
     "zip": "zip-folder dist",
     "release": "dotenv release-it",
+    "doc": " npx @adobe/jsonschema2md -d schema -o docs",
     "clean": "npm run clean:build && npm run clean:testDist",
     "clean:build": "del-cli dist",
     "clean:testDist": "del-cli testDist"

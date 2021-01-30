@@ -14,6 +14,15 @@ Never Have I Ever Question
 
 `object` ([Never Have I Ever](questions-definitions-never-have-i-ever.md))
 
+## 4 Examples
+
+```json
+{
+  "type": "neverHaveIever",
+  "question": "I never cheated"
+}
+```
+
 # 4 Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                         |

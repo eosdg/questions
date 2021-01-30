@@ -14,6 +14,16 @@ A question where you hav to guess a number (could be a year or e.G. number of po
 
 `object` ([Number Question](questions-definitions-number-question.md))
 
+## 0 Examples
+
+```json
+{
+  "type": "number",
+  "question": "When did the french revolution start?",
+  "solution": 1789
+}
+```
+
 # 0 Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                                       |

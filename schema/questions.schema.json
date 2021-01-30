@@ -29,6 +29,13 @@
         "type",
         "question",
         "solution"
+      ],
+      "examples": [
+        {
+          "type": "number",
+          "question": "When did the french revolution start?",
+          "solution": 1789
+        }
       ]
     },
     "votingQuestion": {
@@ -56,6 +63,12 @@
       "required": [
         "type",
         "question"
+      ],
+      "examples": [
+        {
+          "type": "voting",
+          "question": "Who is the funniest in the group?"
+        }
       ]
     },
     "multipleChoiceQuestion": {
@@ -99,10 +112,23 @@
         "question",
         "correctSolution",
         "solutions"
+      ],
+      "examples": [
+        {
+          "type": "multibleChoice",
+          "question": "Which movie won the oscar for best motion picture in 2020?",
+          "correctSolution": 1,
+          "solutions": [
+            "Joker",
+            "Parasite",
+            "Once upon a time in Hollywood",
+            "1917"
+          ]
+        }
       ]
     },
-    "majorityQuestion":{
-      "description": "Let them vote on a topic. The people in the minority will be wrong",
+    "majorityQuestion": {
+      "description": "Let them vote on a topic. The people in the minority will be wrong and have to drink.",
       "type": "object",
       "title": "Majority vote",
       "properties": {
@@ -136,6 +162,16 @@
         "type",
         "question",
         "solutions"
+      ],
+      "examples": [
+        {
+          "type": "majority",
+          "question": "Whats more important?",
+          "solutions": [
+            "Body",
+            "Character"
+          ]
+        }
       ]
     },
     "neverHaveIever": {
@@ -160,7 +196,16 @@
           "default": 3
         }
       },
-      "required": ["type", "question"]
+      "required": [
+        "type",
+        "question"
+      ],
+      "examples": [
+        {
+          "type": "neverHaveIever",
+          "question": "I never cheated"
+        }
+      ]
     }
   },
   "properties": {
@@ -174,8 +219,10 @@
     },
     "questions": {
       "description": "The questionset's questions",
+      "title": "Questions",
       "type": "array",
       "items": {
+        "title": "Questiontypes",
         "oneOf": [
           {
             "$ref": "#/definitions/numberQuestion"

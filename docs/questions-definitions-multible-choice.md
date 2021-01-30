@@ -14,6 +14,22 @@ questions#/properties/questions/items/oneOf/2
 
 `object` ([Multible Choice](questions-definitions-multible-choice.md))
 
+## 2 Examples
+
+```json
+{
+  "type": "multibleChoice",
+  "question": "Which movie won the oscar for best motion picture in 2020?",
+  "correctSolution": 1,
+  "solutions": [
+    "Joker",
+    "Parasite",
+    "Once upon a time in Hollywood",
+    "1917"
+  ]
+}
+```
+
 # 2 Properties
 
 | Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                             |

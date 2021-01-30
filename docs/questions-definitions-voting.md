@@ -14,6 +14,15 @@ A question where one of the members is voted
 
 `object` ([Voting](questions-definitions-voting.md))
 
+## 1 Examples
+
+```json
+{
+  "type": "voting",
+  "question": "Who is the funniest in the group?"
+}
+```
+
 # 1 Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                              |
