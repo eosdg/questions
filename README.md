@@ -8,7 +8,7 @@ Die JSON-Dateien müssen aber dem Schema in `schemas/question.schema.json` entsp
 Bevor ein Pull-Request für neue Fragen erstellt wird, bitte die syntaktische Korrektheit der Fragen mit `npm run test` überprüfen.
 
 Links:
-- [Dokumentation des gesamten JSON-Schemas](https://eosdg.github.io/)
+- [Dokumentation des gesamten JSON-Schemas](https://eosdg.github.io/questions)
 - Dokumentation für Fragetypen:
     - [Majority Vote](https://eosdg.github.io/questions/#/./questions-definitions-majority-vote)
     - [Wahl eines Teilnehmers](https://eosdg.github.io/questions/#/./questions-definitions-voting)
