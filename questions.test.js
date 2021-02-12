@@ -1,11 +1,10 @@
 const {execSync} = require('child_process');
 
-execSync('npm run clean:testDist')
-execSync('npm run build:test');
+execSync('npm run build:cjs');
 
 
 // import questions from "./test/bundle.js"
-const questions = require("./testDist/bundle.js");
+const questions = require("./lib/cjs/bundle.js");
 // import {matchers, matchersWithOptions} from "jest-json-schema"
 const matchers = require("jest-json-schema").matchers;
 // import {expect} from '@jest/globals'
@@ -15,11 +14,11 @@ const schema = require("./schema/questions.schema.json")
 
 expect.extend(matchers);
 
-const questionSets = Object.keys(questions);
+const questionSets = Object.keys(questions.default);
 describe("Passen die Fragen zum Schema", () => {
     for (const questionSet of questionSets) {
         it("Testing \"" + questionSet + "\"", () => {
-            expect(questions[questionSet]).toMatchSchema(schema);
+            expect(questions.default[questionSet]).toMatchSchema(schema);
         });
     }
 });
