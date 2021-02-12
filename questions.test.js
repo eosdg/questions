@@ -1,8 +1,3 @@
-const {execSync} = require('child_process');
-
-execSync('npm run build:cjs');
-
-
 // import questions from "./test/bundle.js"
 const questions = require("./lib/cjs/bundle.js");
 // import {matchers, matchersWithOptions} from "jest-json-schema"

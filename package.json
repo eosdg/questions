@@ -10,6 +10,7 @@
     "lib/"
   ],
   "scripts": {
+    "pretest": "npm run build:cjs",
     "test": "jest",
     "prebuild": "npm run clean",
     "build": "npm run build:esm && npm run build:cjs",
