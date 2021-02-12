@@ -49,5 +49,8 @@
   "jest-junit": {
     "suiteName": "Fragen Tests",
     "includeConsoleOutput": true
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
   }
 }
