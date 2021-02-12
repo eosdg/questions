@@ -1,6 +1,7 @@
 # questions
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/eosdg/questions)](https://github.com/eosdg/questions/releases/latest)
-[![Build Status](https://jenkins.jp-studios.de/job/questions/job/main/badge/icon?subject=Schema%20Verification)](https://jenkins.jp-studios.de/job/questions/job/main/)  
+[![Build Status](https://jenkins.jp-studios.de/job/questions/job/main/badge/icon?subject=Schema%20Verification)](https://jenkins.jp-studios.de/job/questions/job/main/)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
 Das ist ein Repository für eine Fragensammlung für Quizspiele. Beiträge sind sehr willkommen, am besten die vorhandenen Kategorien ergänzen, oder neue erstellen. 
 Die JSON-Dateien müssen aber dem Schema in `schemas/question.schema.json` entsprechen.
