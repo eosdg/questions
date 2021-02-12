@@ -3,23 +3,21 @@
   "private": false,
   "version": "0.4.0",
   "description": "Questions for the Games",
-  "main": "lib/cjs/index.js",
-  "module": "lib/esm/index.js",
+  "main": "lib/cjs/bundle.js",
+  "module": "lib/esm/bundle.js",
   "types": "lib/cjs/index.d.ts",
   "files": [
     "lib/"
   ],
   "scripts": {
     "test": "jest",
-    "test:old": "node --experimental-vm-modules node_modules/jest/bin/jest.js --colors",
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "build": "rollup -c rollup.config.js",
-    "build:test": "rollup -c rollup.test.config.js",
-    "zip": "zip-folder dist",
+    "prebuild": "npm run clean",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p tsconfig.json && rollup -c rollup.config.js",
+    "build:cjs": "tsc -p tsconfig-cjs.json && rollup -c rollup.cjs-config.js",
+    "zip": "zip-folder lib",
     "release": "dotenv release-it",
-    "clean": "npm run clean:build && npm run clean:testDist",
-    "clean:build": "del-cli dist",
-    "clean:testDist": "del-cli testDist"
+    "clean": "del-cli lib"
   },
   "repository": {
     "type": "git",
@@ -34,6 +32,7 @@
   "devDependencies": {
     "@neferin/zip-folder": "^1.0.4",
     "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.1.1",
     "del-cli": "^3.0.1",
     "dotenv-cli": "^4.0.0",
     "jest": "^26.6.3",

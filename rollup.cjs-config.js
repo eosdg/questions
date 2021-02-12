@@ -1,15 +1,16 @@
 import pluginJson from "@rollup/plugin-json";
 import {terser} from "rollup-plugin-terser";
+import typescript from '@rollup/plugin-typescript';
 
 export default {
     input: "index.ts",
     output: {
-        file: 'testDist/bundle.js',
-        format: 'commonjs',
-        exports: 'default'
+        file: 'lib/cjs/bundle.js',
+        format: 'cjs'
     },
     plugins: [
         pluginJson(),
-        terser()
+        terser(),
+        typescript({tsconfig: "tsconfig-cjs.json"})
     ]
 }
