@@ -10,7 +10,6 @@
   "github": {
     "release": true,
     "assets": [
-      "./dist/bundle.js"
     ]
   },
   "npm": {

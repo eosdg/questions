@@ -5,12 +5,12 @@ import typescript from '@rollup/plugin-typescript';
 export default {
     input: "index.ts",
     output: {
-        file: 'lib/esm/bundle.js',
-        format: 'es'
+        file: 'lib/cjs/bundle.js',
+        format: 'cjs'
     },
     plugins: [
         pluginJson(),
         terser(),
-        typescript({tsconfig: "tsconfig.json"})
+        typescript({tsconfig: "tsconfig-cjs.json"})
     ]
 }
