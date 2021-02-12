@@ -17,7 +17,7 @@
     "build:cjs": "tsc -p tsconfig-cjs.json && rollup -c rollup.cjs-config.js",
     "zip": "zip-folder lib",
     "release": "dotenv release-it",
-    "clean": "del-cli lib"
+    "clean": "del-cli lib",
     "doc": " npx @adobe/jsonschema2md -d schema -o docs"
   },
   "repository": {
