@@ -14,8 +14,8 @@
     "test": "jest",
     "prebuild": "npm run clean",
     "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc -p tsconfig.json && rollup -c rollup.config.js",
-    "build:cjs": "tsc -p tsconfig-cjs.json && rollup -c rollup.cjs-config.js",
+    "build:esm": "npx tsc -p ./tsconfig.json && rollup -c rollup.config.js",
+    "build:cjs": "npx tsc -p ./tsconfig-cjs.json && rollup -c rollup.cjs-config.js",
     "zip": "zip-folder lib",
     "release": "dotenv release-it",
     "clean": "del-cli lib",
@@ -44,11 +44,13 @@
     "release-it": "^14.2.2",
     "rollup": "^2.35.1",
     "rollup-plugin-terser": "^7.0.2",
-    "tsc": "^1.20150623.0",
     "typescript": "^4.1.5"
   },
   "jest-junit": {
     "suiteName": "Fragen Tests",
     "includeConsoleOutput": true
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
   }
 }
