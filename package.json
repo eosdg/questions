@@ -44,13 +44,11 @@
     "release-it": "^14.2.2",
     "rollup": "^2.35.1",
     "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.1.0",
     "typescript": "^4.1.5"
   },
   "jest-junit": {
     "suiteName": "Fragen Tests",
     "includeConsoleOutput": true
-  },
-  "dependencies": {
-    "tslib": "^2.1.0"
   }
 }
