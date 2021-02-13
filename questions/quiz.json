@@ -9,7 +9,7 @@
       "solution": 1789
     },
     {
-      "type": "multibleChoice",
+      "type": "multipleChoice",
       "question": "Welcher Film gewann 2020 den Oscar als bester Film",
       "correctSolution": 1,
       "solutions": [

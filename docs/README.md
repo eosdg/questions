@@ -12,9 +12,9 @@
 
 *   [Majority vote](./questions-properties-questions-questiontypes-oneof-majority-vote.md "Let them vote on a topic") – `questions#/properties/questions/items/oneOf/3`
 
-*   [Multible Choice](./questions-definitions-multible-choice.md) – `questions#/definitions/multipleChoiceQuestion`
+*   [Multiple Choice](./questions-definitions-multiple-choice.md) – `questions#/definitions/multipleChoiceQuestion`
 
-*   [Multible Choice](./questions-properties-questions-questiontypes-oneof-multible-choice.md) – `questions#/properties/questions/items/oneOf/2`
+*   [Multiple Choice](./questions-properties-questions-questiontypes-oneof-multiple-choice.md) – `questions#/properties/questions/items/oneOf/2`
 
 *   [Never Have I Ever](./questions-definitions-never-have-i-ever.md "Never Have I Ever Question") – `questions#/definitions/neverHaveIever`
 
@@ -32,11 +32,11 @@
 
 *   [Questions](./questions-properties-questions.md "The questionset's questions") – `questions#/properties/questions`
 
-*   [Untitled array in Schema for Questions](./questions-definitions-multible-choice-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/multipleChoiceQuestion/properties/solutions`
+*   [Untitled array in Schema for Questions](./questions-definitions-multiple-choice-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/multipleChoiceQuestion/properties/solutions`
 
 *   [Untitled array in Schema for Questions](./questions-definitions-majority-vote-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/majorityQuestion/properties/solutions`
 
-*   [Untitled array in Schema for Questions](./questions-definitions-multible-choice-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/multipleChoiceQuestion/properties/solutions`
+*   [Untitled array in Schema for Questions](./questions-definitions-multiple-choice-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/multipleChoiceQuestion/properties/solutions`
 
 *   [Untitled array in Schema for Questions](./questions-definitions-majority-vote-properties-solutions.md "An array containing the possible Solutions") – `questions#/definitions/majorityQuestion/properties/solutions`
 

@@ -20,7 +20,7 @@ one (and only one) of
 
 *   [Voting](questions-definitions-voting.md "check type definition")
 
-*   [Multible Choice](questions-definitions-multible-choice.md "check type definition")
+*   [Multiple Choice](questions-definitions-multiple-choice.md "check type definition")
 
 *   [Majority vote](questions-definitions-majority-vote.md "check type definition")
 

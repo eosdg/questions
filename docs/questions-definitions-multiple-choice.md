@@ -1,4 +1,4 @@
-# Multible Choice Schema
+# Multiple Choice Schema
 
 ```txt
 questions#/properties/questions/items/oneOf/2
@@ -12,13 +12,13 @@ questions#/properties/questions/items/oneOf/2
 
 ## 2 Type
 
-`object` ([Multible Choice](questions-definitions-multible-choice.md))
+`object` ([Multiple Choice](questions-definitions-multiple-choice.md))
 
 ## 2 Examples
 
 ```json
 {
-  "type": "multibleChoice",
+  "type": "multipleChoice",
   "question": "Which movie won the oscar for best motion picture in 2020?",
   "correctSolution": 1,
   "solutions": [
@@ -34,11 +34,11 @@ questions#/properties/questions/items/oneOf/2
 
 | Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                             |
 | :---------------------------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                       | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")                       |
-| [question](#question)               | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")               |
-| [solutions](#solutions)             | `array`  | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")             |
-| [correctSolution](#correctsolution) | `number` | Required | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution") |
-| [sips](#sips)                       | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-multible-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")                       |
+| [type](#type)                       | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multiple-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")                       |
+| [question](#question)               | `string` | Required | cannot be null | [Schema for Questions](questions-definitions-multiple-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")               |
+| [solutions](#solutions)             | `array`  | Required | cannot be null | [Schema for Questions](questions-definitions-multiple-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")             |
+| [correctSolution](#correctsolution) | `number` | Required | cannot be null | [Schema for Questions](questions-definitions-multiple-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution") |
+| [sips](#sips)                       | `number` | Optional | cannot be null | [Schema for Questions](questions-definitions-multiple-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")                       |
 
 ## type
 
@@ -52,7 +52,7 @@ The questions type
 
 *   cannot be null
 
-*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")
+*   defined in: [Schema for Questions](questions-definitions-multiple-choice-properties-type.md "questions#/definitions/multipleChoiceQuestion/properties/type")
 
 ### type Type
 
@@ -64,7 +64,7 @@ The questions type
 
 | Value              | Explanation |
 | :----------------- | :---------- |
-| `"multibleChoice"` |             |
+| `"multipleChoice"` |             |
 
 ## question
 
@@ -78,7 +78,7 @@ The questions question
 
 *   cannot be null
 
-*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")
+*   defined in: [Schema for Questions](questions-definitions-multiple-choice-properties-question.md "questions#/definitions/multipleChoiceQuestion/properties/question")
 
 ### question Type
 
@@ -96,7 +96,7 @@ An array containing the possible Solutions
 
 *   cannot be null
 
-*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")
+*   defined in: [Schema for Questions](questions-definitions-multiple-choice-properties-solutions.md "questions#/definitions/multipleChoiceQuestion/properties/solutions")
 
 ### solutions Type
 
@@ -120,7 +120,7 @@ The index of the correct solution. (Indexing starts with 0
 
 *   cannot be null
 
-*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution")
+*   defined in: [Schema for Questions](questions-definitions-multiple-choice-properties-correctsolution.md "questions#/definitions/multipleChoiceQuestion/properties/correctSolution")
 
 ### correctSolution Type
 
@@ -144,7 +144,7 @@ how many sips the people, who picked to wrong answer have to drink
 
 *   cannot be null
 
-*   defined in: [Schema for Questions](questions-definitions-multible-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")
+*   defined in: [Schema for Questions](questions-definitions-multiple-choice-properties-sips.md "questions#/definitions/multipleChoiceQuestion/properties/sips")
 
 ### sips Type
 

@@ -1,21 +1,23 @@
-# Untitled array in undefined Schema
+# Untitled string in Schema for Questions Schema
 
 ```txt
-questions#/definitions/multipleChoiceQuestion/properties/solutions
+questions#/definitions/multipleChoiceQuestion/properties/type
 ```
 
-An array containing the possible Solutions
+The questions type
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :---------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [questions.schema.json*](../out/questions.schema.json "open original schema") |
 
-## solutions Type
+## type Type
 
-`string[]`
+`string`
 
-## solutions Constraints
+## type Constraints
 
-**maximum number of items**: the maximum number of items for this array is: `10`
+**enum**: the value of this property must be equal to one of the following values:
 
-**minimum number of items**: the minimum number of items for this array is: `2`
+| Value              | Explanation |
+| :----------------- | :---------- |
+| `"multipleChoice"` |             |

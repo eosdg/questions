@@ -19,7 +19,7 @@
     "zip": "zip-folder lib",
     "release": "dotenv release-it",
     "clean": "del-cli lib",
-    "doc": " npx @adobe/jsonschema2md -d schema -o docs"
+    "doc": " npx @adobe/jsonschema2md -d schema -o docs && git add docs"
   },
   "repository": {
     "type": "git",

@@ -73,13 +73,13 @@
     },
     "multipleChoiceQuestion": {
       "type": "object",
-      "title": "Multible Choice",
+      "title": "Multiple Choice",
       "properties": {
         "type": {
           "description": "The questions type",
           "type": "string",
           "enum": [
-            "multibleChoice"
+            "multipleChoice"
           ]
         },
         "question": {
@@ -115,7 +115,7 @@
       ],
       "examples": [
         {
-          "type": "multibleChoice",
+          "type": "multipleChoice",
           "question": "Which movie won the oscar for best motion picture in 2020?",
           "correctSolution": 1,
           "solutions": [
