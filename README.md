@@ -13,7 +13,7 @@ Links:
 - Dokumentation für Fragetypen:
     - [Majority Vote](https://eosdg.github.io/questions/#/./questions-definitions-majority-vote)
     - [Wahl eines Teilnehmers](https://eosdg.github.io/questions/#/./questions-definitions-voting)
-    - [Multible Choice](https://eosdg.github.io/questions/#/./questions-definitions-multible-choice)
+    - [Multiple Choice](https://eosdg.github.io/questions/#/./questions-definitions-multiple-choice)
     - [Never Have I Ever](https://eosdg.github.io/questions/#/./questions-definitions-never-have-i-ever)
     - [Number Question](https://eosdg.github.io/questions/#/./questions-definitions-number-question)
     
