@@ -49,6 +49,27 @@
     {
       "type": "neverHaveIever",
       "question": "Den Geburtstag eines Familienmitgliedes vergessen"
-    }
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Auf ein Date gegangen nur um sein/ihre Freundin/Freund kennenzulernen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Meine(n) Ex gefragt ob wir befreundet bleiben wollen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Jemanden nach der Telefonnummer gefragt und Sie/Ihn nie angerufen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Einen Prominenten persönlich getroffen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Vor der Polizei geflohen"
+    },
+
   ]
 }
