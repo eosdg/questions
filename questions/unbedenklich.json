@@ -25,6 +25,30 @@
     {
       "type": "neverHaveIever",
       "question": "Im Zug die Station verpasst oder eingeschlafen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Im Zug die Station verpasst oder eingeschlafen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Mehr als 48h wach geblieben"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Versucht jemandes Passwort zu erraten"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Gras geraucht"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Betrunken vergessen wo ich wohne"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Den Geburtstag eines Familienmitgliedes vergessen"
     }
   ]
 }
