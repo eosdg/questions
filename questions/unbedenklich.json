@@ -93,6 +93,10 @@
       "type": "voting",
       "question": "Was ist besser auf dem Klo: Spielen oder lesen?",
       "sips": 2
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Bei einer Party abgesagt um was mit Freund/Freundin zu machen"
     }
   ]
 }
