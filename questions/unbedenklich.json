@@ -25,6 +25,78 @@
     {
       "type": "neverHaveIever",
       "question": "Im Zug die Station verpasst oder eingeschlafen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Im Zug die Station verpasst oder eingeschlafen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Mehr als 48h wach geblieben"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Versucht jemandes Passwort zu erraten"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Gras geraucht"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Betrunken vergessen wo ich wohne"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Den Geburtstag eines Familienmitgliedes vergessen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Auf ein Date gegangen nur um sein/ihre Freundin/Freund kennenzulernen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Meine(n) Ex gefragt ob wir befreundet bleiben wollen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Jemanden nach der Telefonnummer gefragt und Sie/Ihn nie angerufen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Einen Prominenten persönlich getroffen"
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Vor der Polizei geflohen"
+    },
+    {
+      "type": "majority",
+      "question": "Rauchst du?",
+      "solutions": ["Ja", "Nein"]
+    },
+    {
+      "type": "voting",
+      "question": "Wer kann am besten malen?",
+      "sips": 2
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Eine Folge einer Reality-Show mehrfach hintereinander geschaut"
+    },
+    {
+      "type": "voting",
+      "question": "Huhn oder Rind?",
+      "sips": 2
+    },
+    {
+      "type": "voting",
+      "question": "Was ist besser auf dem Klo: Spielen oder lesen?",
+      "sips": 2
+    },
+    {
+      "type": "neverHaveIever",
+      "question": "Bei einer Party abgesagt um was mit Freund/Freundin zu machen"
     }
   ]
 }
